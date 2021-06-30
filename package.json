@@ -1,0 +1,21 @@
+{
+    "name": "dead-void",
+    "displayName": "Dead Void",
+    "description": "This is a custom VSCode Theme that I made, to protect my eyes from the light ;p",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dead Void",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dead Void-color-theme.json"
+            }
+        ]
+    }
+}

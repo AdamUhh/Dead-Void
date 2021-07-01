@@ -3,6 +3,8 @@
     "displayName": "Dead Void",
     "description": "This is a custom VSCode Theme that I made, to protect my eyes from the light ;p",
     "version": "0.0.1",
+    "repository": "https://github.com/AdamUhh/Dead-Void",
+    "publisher": "AdamUhh",
     "engines": {
         "vscode": "^1.57.0"
     },

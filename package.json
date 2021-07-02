@@ -1,8 +1,8 @@
 {
-    "name": "dead-void",
-    "displayName": "Dead Void",
-    "description": "This is a custom VSCode Theme that I made, to protect my eyes from the light ;p",
-    "version": "0.0.1",
+    "name": "colorful-void",
+    "displayName": "Colorful Void",
+    "description": "This is a theme I made. Its a dark editor and the syntax is colorful",
+    "version": "0.1.0",
     "repository": "https://github.com/AdamUhh/Dead-Void",
     "publisher": "AdamUhh",
     "engines": {
@@ -14,7 +14,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dead Void",
+                "label": "Colorful Void",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Dead Void-color-theme.json"
             }

@@ -458,7 +458,7 @@
 			}
 		},
 		{
-			"name": ";",
+			"name": "{}",
 			"scope": [
 				"meta.block.js",
 			],
@@ -757,7 +757,7 @@
 			}
 		},
 		{
-			"name": "CSS Names Punctuation = # - . - ::",
+			"name": "CSS Names Punctuation -> #, ., ::",
 			"scope": [
 				"punctuation.definition.entity.css"
 			],
@@ -769,10 +769,24 @@
 			"name": "CSS Curly Brackets",
 			"scope": [
 				"punctuation.section.property-list.end.bracket.curly.css",
-				"punctuation.section.property-list.begin.bracket.curly.css"
+				"punctuation.section.property-list.begin.bracket.curly.css",
+				"punctuation.definition.binding-pattern.object"
 			],
 			"settings": {
-				"foreground": "#00d8d8"
+				"foreground": "#00b9b9"
+				// "foreground": "#00d8d8"
+				// "foreground": "#50CEE4"
+			}
+		},
+		{
+			"name": "()",
+			"scope": [
+				"punctuation.section.function.begin.bracket.round.css",
+				"punctuation.section.function.end.bracket.round.css"
+			],
+			"settings": {
+				"foreground": "#71cfcf"
+				// "foreground": "#00d8d8"
 				// "foreground": "#50CEE4"
 			}
 		},
